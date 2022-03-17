@@ -7,18 +7,44 @@
   padding: 0;
 }
 
+*:focus {
+  outline: none;
+}
+
 body {
   font-family: "Nunito", sans-serif;
 }
 
+input[type="text"] {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  height: 2.5rem;
+  width: 20rem;
+  padding: 1rem;
+}
+
+input[type="text"]:focus {
+  outline: 1px solid black;
+}
+
+.nav-item {
+  font-size: 1.25rem;
+  font-weight: lighter;
+}
+
+.nav-item:hover, .nav-item:focus {
+  border-bottom: 2px solid black;
+}
+
 .Header {
-  min-height: 20vh;
+  min-height: 22vh;
   background-color: #dcdcdc;
 }
 
 .Logo {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 700;
   padding: 1.5rem 0.5rem;
-  border: 8px solid black;
+  border: 7px solid black;
 }

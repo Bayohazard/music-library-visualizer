@@ -1,22 +1,28 @@
 import React from 'react';
 import Logo from './Logo';
+import SearchBar from './SearchBar';
 import { Link } from 'react-router-dom';
 
 function Header(props) {
   return (
-    <div className="Header flex items-center px-16">
+    <header className="Header flex items-center px-16">
       <Logo />
       <nav className="flex justify-center ml-auto">
-        <ul>
-          <li>
-            <Link to="/filter">Filter</Link>
+        <ul className="flex justify-around">
+          <li className="px-8">
+            <Link className="nav-item" to="/filter">
+              Filter
+            </Link>
           </li>
-          <li>
-            <Link to="/visualizer">Visualizer</Link>
+          <li className="px-8">
+            <Link className="nav-item" to="/visualizer">
+              Visualizer
+            </Link>
           </li>
         </ul>
       </nav>
-    </div>
+      <SearchBar placeholder="Search song, artist, album.." />
+    </header>
   );
 }
 
