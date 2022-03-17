@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+
+.Header {
+  min-height: 20vh;
+  background-color: #dcdcdc;
+}
+
+.Logo {
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 1.5rem 0.5rem;
+  border: 8px solid black;
 }

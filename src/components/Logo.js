@@ -5,7 +5,7 @@ function Logo(props) {
   return (
     <div>
       <Link to="/" className="hover:no-underline">
-        <h1 className="inline hover:no-underline text-5xl px-1 py-8">MLH</h1>
+        <p className="Logo hover:no-underline">MLH</p>
       </Link>
     </div>
   );
