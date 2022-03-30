@@ -73,6 +73,24 @@ input[type="text"]:focus {
   border-radius: 0.5rem;
 }
 
+.HamburgerIcon:hover {
+  cursor: pointer;
+}
+
+.CloseIcon span {
+  display: block;
+  background: #ffffff;
+  border-radius: 0.5rem;
+}
+
+.CloseIcon:first-child {
+  transform: rotate(45deg);
+}
+
+.CloseIcon:last-child {
+  transform: rotate(-45deg);
+}
+
 .subheading {
   font-size: 2rem;
   font-weight: 300;
