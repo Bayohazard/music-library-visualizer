@@ -17,7 +17,7 @@ body {
 
 main {
   background-color: #9d4242;
-  height: 80vh;
+  height: 85vh;
 }
 
 h1 {
@@ -48,20 +48,13 @@ input[type="text"]:focus {
 }
 
 .Header {
-  min-height: 20vh;
+  min-height: 15vh;
   background-color: #dcdcdc;
 }
 
 .Home {
   background: url("./images/vinyl.svg") no-repeat right;
-  background-size: contain;
-}
-
-.Logo {
-  font-size: 3rem;
-  font-weight: 700;
-  padding: 1.5rem 0.5rem;
-  border: 7px solid black;
+  background-size: auto;
 }
 
 .HamburgerIcon span {
@@ -75,20 +68,6 @@ input[type="text"]:focus {
 
 .HamburgerIcon:hover {
   cursor: pointer;
-}
-
-.CloseIcon span {
-  display: block;
-  background: #ffffff;
-  border-radius: 0.5rem;
-}
-
-.CloseIcon:first-child {
-  transform: rotate(45deg);
-}
-
-.CloseIcon:last-child {
-  transform: rotate(-45deg);
 }
 
 .subheading {

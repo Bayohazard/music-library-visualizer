@@ -5,7 +5,7 @@ function CloseIcon(props) {
     <div className="CloseIcon">
       <span></span>
       <span></span>
-    <div />
+    </div>
   );
 }
 

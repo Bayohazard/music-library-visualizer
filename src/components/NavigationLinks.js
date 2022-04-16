@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function NavigationLinks(props) {
   return (
-    <nav className="flex justify-center ml-auto">
+    <nav className="hidden lg:flex justify-center ml-auto">
       <ul className="flex justify-around">
         <li className="px-8">
           <Link className="nav-item" to="/filter">

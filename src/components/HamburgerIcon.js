@@ -2,7 +2,7 @@ import React from 'react';
 
 function HamburgerIcon() {
   return (
-    <div>
+    <div className="HamburgerIcon">
       <span></span>
       <span></span>
       <span></span>

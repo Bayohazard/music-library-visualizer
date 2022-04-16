@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import LogoImage from '../images/logo.svg';
 
 function Logo(props) {
   return (
-    <div>
+    <div className="w-32">
       <Link to="/" className="hover:no-underline">
-        <p className="Logo hover:no-underline">MLH</p>
+        <img src={LogoImage} alt="Logo" />
       </Link>
     </div>
   );
