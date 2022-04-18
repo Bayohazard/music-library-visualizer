@@ -6,12 +6,12 @@ function NavigationLinks(props) {
     <nav className="hidden lg:flex justify-center ml-auto">
       <ul className="flex justify-around">
         <li className="px-8">
-          <Link className="nav-item" to="/filter">
+          <Link className="nav-item text-xl font-thin" to="/filter">
             Filter
           </Link>
         </li>
         <li className="px-8">
-          <Link className="nav-item" to="/visualizer">
+          <Link className="nav-item text-xl font-thin" to="/visualizer">
             Visualizer
           </Link>
         </li>
