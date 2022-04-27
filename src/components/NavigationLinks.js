@@ -3,15 +3,21 @@ import { Link } from 'react-router-dom';
 
 function NavigationLinks(props) {
   return (
-    <nav className="hidden lg:flex justify-center ml-auto">
-      <ul className="flex justify-around">
+    <nav>
+      <ul className={props.isMobileSidebar ? 'lg:hidden' : 'hidden lg:flex'}>
         <li className="px-8">
-          <Link className="nav-item text-xl font-thin" to="/filter">
+          <Link
+            className="text-xl font-thin hover:border-b-2 border-black focus:border-b-2 border-black"
+            to="/filter"
+          >
             Filter
           </Link>
         </li>
         <li className="px-8">
-          <Link className="nav-item text-xl font-thin" to="/visualizer">
+          <Link
+            className="text-xl font-thin hover:border-b-2 border-black focus:border-b-2 border-black"
+            to="/visualizer"
+          >
             Visualizer
           </Link>
         </li>

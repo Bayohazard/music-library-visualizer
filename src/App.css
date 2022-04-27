@@ -38,13 +38,21 @@ input[type="text"]:focus {
   outline: 1px solid black;
 }
 
-.nav-item:hover, .nav-item:focus {
-  border-bottom: 2px solid black;
-}
-
 .Header {
   min-height: 15vh;
   background-color: #dcdcdc;
+}
+
+.nav-sidebar {
+  background-color: #dcdcdc;
+  position: fixed;
+  top: 15vh;
+  right: 0;
+}
+
+.nav-sidebar li {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .Home {
