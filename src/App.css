@@ -45,9 +45,15 @@ input[type="text"]:focus {
 
 .nav-sidebar {
   background-color: #dcdcdc;
+  transition: transform 0.4s ease-in-out;
+  transform: translateX(100%);
   position: fixed;
   top: 15vh;
   right: 0;
+}
+
+#navbar-toggle:checked ~ .nav-sidebar {
+  transform: translateX(0);
 }
 
 .nav-sidebar li {
@@ -57,20 +63,7 @@ input[type="text"]:focus {
 
 .Home {
   background: url("./images/vinyl.svg") no-repeat right;
-  background-size: auto;
-}
-
-.HamburgerIcon span {
-  display: block;
-  margin: 0.70rem;
-  height: 0.5rem;
-  width: 3.75rem;
-  background: #ffffff;
-  border-radius: 0.5rem;
-}
-
-.HamburgerIcon:hover {
-  cursor: pointer;
+  background-size: contain;
 }
 
 .subheading {
