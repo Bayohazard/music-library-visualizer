@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from '../components/header/Header';
 
-function Visualizer(props) {
+function Filter(props) {
   return (
     <>
-      <Header currentPage="Visualizer" />
+      <Header currentPage="Filter" />
     </>
   );
 }
 
-export default Visualizer;
+export default Filter;

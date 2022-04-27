@@ -9,7 +9,10 @@ function Header(props) {
     <header className="Header flex items-center justify-between px-8 sm:px-16">
       <Logo />
       <div className="flex items-center">
-        <NavigationLinks isMobileSidebar={false} />
+        <NavigationLinks
+          isMobileSidebar={false}
+          currentPage={props.currentPage}
+        />
         <SearchBar placeholder="Search song, artist, album..." />
         <HamburgerMenu />
       </div>
