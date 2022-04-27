@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './components/Header';
-import vinylImage from './images/vinyl.svg';
+import Header from '../components/header/Header';
+import vinylImage from '../images/vinyl.svg';
 
 function Home() {
   return (

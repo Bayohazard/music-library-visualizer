@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NavigationLinks from './NavigationLinks';
-import CloseIcon from '../images/close-icon.svg';
-import HamburgerIcon from '../images/hamburger-icon.svg';
+import CloseIcon from '../../images/close-icon.svg';
+import HamburgerIcon from '../../images/hamburger-icon.svg';
 
 function HamburgerMenu(props) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
