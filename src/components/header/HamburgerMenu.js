@@ -16,7 +16,15 @@ function HamburgerMenu(props) {
           setIsMenuOpen(!isMenuOpen);
         }}
       />
-      <div className="nav-sidebar w-3/4 sm:w-1/3 h-full text-center">
+      <div className="nav-sidebar w-full sm:w-1/3 h-full text-center">
+        <div className="flex md:hidden justify-center mt-8 mx-8">
+          <input
+            className="w-3/4"
+            type="text"
+            name="nav-search"
+            placeholder="Search song, artist, album..."
+          />
+        </div>
         <NavigationLinks
           isMobileSidebar={true}
           className="flex justify-center px-8"

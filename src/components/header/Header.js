@@ -1,6 +1,5 @@
 import React from 'react';
 import Logo from './Logo';
-import SearchBar from './SearchBar';
 import NavigationLinks from './NavigationLinks';
 import HamburgerMenu from './HamburgerMenu';
 
@@ -13,9 +12,14 @@ function Header(props) {
           isMobileSidebar={false}
           currentPage={props.currentPage}
         />
-        <SearchBar placeholder="Search song, artist, album..." />
-        <HamburgerMenu />
+        <input
+          className="hidden md:flex ml-8"
+          type="text"
+          name="nav-search"
+          placeholder="Search song, artist, album..."
+        />
       </div>
+      <HamburgerMenu />
     </header>
   );
 }
