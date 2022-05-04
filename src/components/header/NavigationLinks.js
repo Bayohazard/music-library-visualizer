@@ -8,7 +8,7 @@ function NavigationLinks(props) {
     <nav>
       <ul className={props.isMobileSidebar ? 'lg:hidden' : 'hidden lg:flex'}>
         {pages.map((page) => (
-          <li className="px-8">
+          <li key={page.toLowerCase()} className="px-8">
             <Link
               className={`text-xl font-thin hover:border-b-2 border-black focus:border-b-2 border-black ${
                 page === props.currentPage ? 'font-medium' : ''

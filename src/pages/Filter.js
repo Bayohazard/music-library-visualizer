@@ -11,6 +11,23 @@ function Filter(props) {
   return (
     <>
       <Header currentPage="Filter" />
+      <main>
+        <button type="button" onClick={test}>
+          Click Me
+        </button>
+        <table>
+          <thead>
+            <tr className="table-header-row text-white">
+              <th>Title</th>
+              <th>Length</th>
+              <th>Artist</th>
+              <th>Album</th>
+              <th>Genre</th>
+              <th>Plays</th>
+            </tr>
+          </thead>
+        </table>
+      </main>
     </>
   );
 }
